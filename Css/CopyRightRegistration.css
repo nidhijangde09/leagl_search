@@ -49,9 +49,9 @@
     color: #004CD2;
     width: 100%;
     background-color: #fff;
+    text-align: center;
 }
 .box-heading{
-    margin-left: 85px;
     font-size: 15px;
    
 }
@@ -92,3 +92,33 @@
     padding: 9px;
     color: #fff;
 }
+.form-box{
+    height: 52vh;
+    width: 26%;
+    background-color: #edeff2;
+    float: right;
+    margin-top: -360px;
+    margin-right: 250px;
+    border-radius: 5px;
+   
+}
+.form-heading{
+    text-align: center;
+    margin: 10px;
+}
+.form{
+    text-align: center;
+}
+input{
+    width: 80%;
+    height: 5vh;
+    margin: 10px;
+    border-color: #fff;
+
+}
+.container500{
+    display: flex;
+}
+
+
+
