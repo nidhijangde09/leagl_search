@@ -41,7 +41,7 @@
 .content-box p{
     color: #fff;
     font-size: 18px;
-    margin-left: 170px;
+    margin-left: -780px;
     margin-top: 50px;
     
 }
@@ -89,12 +89,12 @@
     margin-top: 50px;
 }
 .down-heading{
-    margin-left: 222px;
+    margin-left: -770px;
     padding: 9px;
     color: #fff;
 }
 .form-box{
-    height: 54vh;
+    height: 52vh;
     width: 26%;
     background-color: #edeff2;
     float: right;
@@ -156,7 +156,6 @@ button{
     border: 1px solid transparent;
     font-size: 13px;
     line-height: 1.5384616;
-    -webkit-user-select: none;
     font-weight: 700;
     letter-spacing: .08em;
     box-shadow: 0 2px 0 #a36b00;
@@ -201,11 +200,11 @@ margin-top: 400px;
     justify-content: center;
     padding: 10px;
 }
-.p1{
+.p11{
  margin-left: 50px;
 }
-.p2{
-    margin-left: 30px;
+.p12{
+    margin-left: -15px;
     margin-top: -10px;
 }
 .inside{

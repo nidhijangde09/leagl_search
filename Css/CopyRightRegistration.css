@@ -200,11 +200,11 @@ margin-top: 400px;
     justify-content: center;
     padding: 10px;
 }
-.p1{
+.p11{
  margin-left: 50px;
 }
-.p2{
-    margin-left: 30px;
+.p12{
+    margin-left: -15px;
     margin-top: -10px;
 }
 .inside{
@@ -440,13 +440,106 @@ text-align: center;
    
     }
     .block44{
-        height: 50vh;
+        height: 264vh;
         width: 100%;
+        padding: 20px;
+        background-color:#F4F4F4;
+    }
+    .inner-block44{
+        text-align: center;
+        height: 20vh;
+        width: 100%;
+        text-align: center;
+        padding: 30px;
+        border-color: #fff;
     }
     .text{
-        text-align: center;
+        margin: 30px 0px;
+    }
+    .accordian{
+        margin: 60px auto;
+        width: 1000px;
+    }
+    .accordian li{
+        list-style: none;
+        width: 100%;
+        margin: 20px;
+        padding: 10px;
+        background-color: #fff;
+       
+    }
+    .accordian li label{
+        display: flex;
+        align-items: center;
+        padding: 8px;
+        font-size: 15px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    label::before{
+        content: '+';
+        margin-right: 10px;
+        font-size: 24px;
+        font-weight: 600;
+    }
+    
+    input[type="radio"]{
+        display: none;
+    }
+    .accordian .accordian-content{
+        padding: 0 10px;
+        line-height: 26px;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s, padding 0.5s;
     }
 
+    .accordian input[type="radio"]:checked + label + .accordian-content{
+        max-height: 400px;
+        padding: 10px 10px 20px;
+    }
+    .accordian input[type="radio"]:checked + label::before{
+        content: '-';
+    }
+ .black-container{
+    height: 10vh;
+    width: 100%;
+    background-color: #333333;
+    text-align: center;
+    padding: 30px;
+    color:#fff;
+ }
 
 
-
+.review10{
+    height: 40vh;
+    width: 100%;
+    background-color: #F4F4F4;
+    margin-top: 140px;
+    padding: 30px;
+    
+}
+.review10 h1{
+    text-align: center;
+}
+.outer-review10{
+    display: flex;
+    justify-content: center;
+}
+.para-here p{
+    margin: 40px 20px;
+    text-align: center;
+}
+.img555{
+    border-radius: 80px;
+    margin: 0px 30px;
+}
+.another-star-container{
+    display: flex;
+}
+.another-star{
+    margin-left: 48px;
+}
+.star-no{
+    color: #fda700;
+}
