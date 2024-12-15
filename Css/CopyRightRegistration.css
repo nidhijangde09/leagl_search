@@ -481,6 +481,7 @@ text-align: center;
         margin-right: 10px;
         font-size: 24px;
         font-weight: 600;
+        color: #004CD2;
     }
     
     input[type="radio"]{
@@ -500,6 +501,7 @@ text-align: center;
     }
     .accordian input[type="radio"]:checked + label::before{
         content: '-';
+        color: #004CD2;
     }
  .black-container{
     height: 10vh;
