@@ -1779,54 +1779,22 @@ startupwala-featured-in-container
   background-color: #e3e0e0;
 }
 
-.accordion {
-  background-color:beige;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 70%;
-  border:#444;
-  text-align: left;
-  outline:invert;
-  font-size: 18px;
-  transition: 0.4s;
-  margin-bottom: 15px;
 
-}
 
-.active, .accordion:hover {
-  background-color:rgb(255, 255, 0);
-}
 
-.accordion:after {
-  content: '\002B';
-  color:black;
-  font-weight: bold;
-  float: right;
-  margin:5px;
-}
+#startup-trust-us-three-people-img{
 
-.active:after {
-  content: "\2212";
+  width: 100%;
+
 }
 
 .panel {
-  padding:0 30px;
+  padding: 30px;
+  display: none;
   background-color: white;
-  max-height: 0;
   overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  width: 70%;
-  margin-left: 222px;
-  border:#1A1A1A;
-  margin-bottom: 15px;
-  height: 110px;
-}
-
-#startup-trust-us-three-people-img{
-  margin-left: 0%;
-  margin-right:0%;
-  padding left: 10px;
-  max-width: 100%;
-
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+padding-bottom: 30px;
 }
