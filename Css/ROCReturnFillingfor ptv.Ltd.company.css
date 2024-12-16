@@ -2486,3 +2486,11 @@ padding-right:10px;
   content: "\2796";
   /* Unicode character for "minus" sign (-) */
 }
+
+#startup-trust-us-three-people-img{
+  margin-left: 0%;
+  margin-right:0%;
+  padding left: 10px;
+  max-width: 100%;
+
+}
