@@ -10,162 +10,159 @@
 
 
 .navbar {
-    background-color: #e3e0e0;
-   
+  background-color: #f4f4f4e2;
+
 }
 
 .nav-logo {
-    width: 15%;
-    margin-left: 40px;
-    padding-top: 20px;
+  width: 15%;
+  margin-left: 40px;
+  padding-top: 20px;
 }
 
 .nav-list {
-    list-style: none;
-    display: flex;
-    justify-content: center;
+  list-style: none;
+  display: flex;
+  justify-content: center;
 }
 
 .nav-list li {
-    margin: 0 15px;
+  margin: 0 15px;
 }
 
 .nav-list a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    padding: 10px 10px;
-    display: block;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 10px 10px;
+  display: block;
 }
 
 .dropdown {
-    position: relative;
-   
+  position: relative;
+
 }
 
 
 .dropbtn {
-    color: white;
-    text-decoration: none;
-    display: block;
-    font-size: 13px;
-    margin-top: -40px;
-    float: right;
-    
+  color: white;
+  text-decoration: none;
+  display: block;
+  font-size: 13px;
+  margin-top: -40px;
+  float: right;
+  font-family: 'Roboto', sans-serif;
 }
 
 
 .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #ffffff;
-    width: 345px;
-    padding: 15px 10px;
-    z-index: 1;
-    margin-top: 10px;
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  width: 345px;
+  padding: 15px 10px;
+  z-index: 1;
+  margin-top: 10px;
 
 }
 
 .dropdown-content a {
-    padding: 12px 15px;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    display: block;
-    font-size: 12px;
+  padding: 12px 15px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  display: block;
+  font-size: 12px;
 }
 
 
 .dropdown:hover .dropdown-content {
-    display: block;
+  display: block;
 }
 
 
-.dropdown-content a:hover {
-    background-color: #575757;
-}
+
 
 .verticalline {
-    border-left: 1px solid black;
-    height: 160px;
-    float: left;
-    margin-top: -160px;
-    margin-left: 53%;
+  border-left: 1px solid black;
+  height: 160px;
+  float: left;
+  margin-top: -160px;
+  margin-left: 53%;
 }
 
 
 .dropdown-content1 {
-    display: none;
-    position: absolute;
-    background-color: #ffffff;
-    width: 380px;
-    padding: 10px;
-    z-index: 1;
-    margin-top: 10px;
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  width: 380px;
+  padding: 10px;
+  z-index: 1;
+  margin-top: 10px;
 
 }
 
 .dropdown-content1 a {
-    padding: 12px 16px;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    display: block;
-    font-size: 12px;
+  padding: 12px 16px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  display: block;
+  font-size: 12px;
 }
 
 
 .dropdown:hover .dropdown-content1 {
-    display: block;
+  display: block;
 }
 
 
-.dropdown-content1 a:hover {
-    background-color: #575757;
-}
 
 .verticalline1 {
-    border-left: 1px solid black;
-    height: 300px;
-    float: left;
-    margin-top: -270px;
-    margin-left: 52%;
+  border-left: 1px solid black;
+  height: 300px;
+  float: left;
+  margin-top: -270px;
+  margin-left: 52%;
 }
 
 .dropdown-content2 {
-    display: none;
-    position: absolute;
-    background-color: #ffffff;
-    width: 200px;
-    padding: 10px;
-    z-index: 1;
-    margin-top: 10px;
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  width: 200px;
+  padding: 10px;
+  z-index: 1;
+  margin-top: 10px;
 
 }
 
 .dropdown-content2 a {
-    padding: 12px 16px;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    display: block;
-    font-size: 12px;
+  padding: 12px 16px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  display: block;
+  font-size: 12px;
 }
 
 
 .dropdown:hover .dropdown-content2 {
-    display: block;
+  display: block;
+}
+
+.addeditems {
+  margin-top: -30px;
+  float: right;
+  margin-right: -450px;
+  padding-left: 70px;
+}
+
+.add-item {
+  font-size: 11px;
+  padding: 0px;
+  margin-top: -30px;
+  font-family: 'Roboto', sans-serif;
 }
 
 
-
-.addeditems{
-margin-top: -30px;
-float: right;
-margin-right: -450px;
-padding-left: 70px;
-}
-.add-item{
-   font-size: 11px;
-   padding: 0px;
-   margin-top: -30px;
-}
 
 header
 {
@@ -1793,7 +1790,6 @@ startupwala-featured-in-container
   display: none;
   background-color: white;
   overflow: hidden;
-<<<<<<< HEAD
   transition: max-height 0.2s ease-out;
   width: 70%;
   margin-left: 222px;
@@ -1805,10 +1801,8 @@ startupwala-featured-in-container
 #startup-trust-us-three-people-img{
   margin-left: 0%;
   margin-right:0%;
-  padding left: 10px;
+  padding-left: 10px;
   width: 100%;
-
-=======
   width: 80%;
   margin-left: auto;
   margin-right: auto;
