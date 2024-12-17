@@ -1793,7 +1793,7 @@ startupwala-featured-in-container
   display: none;
   background-color: white;
   overflow: hidden;
-<<<<<<< HEAD
+
   transition: max-height 0.2s ease-out;
   width: 70%;
   margin-left: 222px;
@@ -1807,10 +1807,47 @@ startupwala-featured-in-container
   margin-right:0%;
   padding left: 10px;
   width: 100%;
-
-=======
   width: 80%;
   margin-left: auto;
   margin-right: auto;
 padding-bottom: 30px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  
+{
+-webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+button, input[type="submit"], input[type="reset"] {
+background: none;
+color: inherit;
+border: none;
+padding: 0;
+font: inherit;
+outline: inherit;
+}
+
+#eligibility-for-gst-registration{
+    padding:20PX;
+    margin:10PX;
+}
+#tableheading{
+    padding: 5PX;
+    padding-left: 30PX;
+    background-color: #57575754;
+}
+.postcolor{
+    padding: 20px;
+    margin-left:30px;
+
+   
 }
