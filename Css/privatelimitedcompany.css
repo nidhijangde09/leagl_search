@@ -5,7 +5,9 @@
     box-sizing: border-box;
     line-height: 1.6;
   }
-  .navbar {
+
+  
+.navbar {
     background-color: #f4f4f4e2;
   
   }
@@ -157,8 +159,6 @@
     margin-top: -30px;
     font-family: 'Roboto', sans-serif;
   }
-  
-
   
   
 .container {
