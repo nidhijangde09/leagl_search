@@ -1190,7 +1190,7 @@ startupwala-featured-in-container
            width: 95px;
            border-radius: 100%;
            background-color: #fff;
-           color: #333333;
+           color:;
        }
 
        .why-startupwala-single-section p
@@ -1802,16 +1802,7 @@ startupwala-featured-in-container
   height: 110px;
 }
 
-#startup-trust-us-three-people-img{
-  margin-left: 0%;
-  margin-right:0%;
-  padding left: 10px;
-  width: 100%;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-padding-bottom: 30px;
-}
+
 
 * {
     box-sizing: border-box;
@@ -1844,10 +1835,10 @@ outline: inherit;
     padding: 5PX;
     padding-left: 30PX;
     background-color: #57575754;
+    text-align: center;
 }
 .postcolor{
     padding: 20px;
     margin-left:30px;
-
-   
+  
 }

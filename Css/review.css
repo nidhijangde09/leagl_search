@@ -1,0 +1,532 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover, 
+  input:-webkit-autofill:focus, 
+  input:-webkit-autofill:active  
+  {
+        -webkit-box-shadow: 0 0 0 30px white inset !important;
+  }
+
+  header
+  {
+     background-color: #004CD2;
+     color: #fff;
+     padding-bottom: 50px;
+  }
+  
+  header h1 
+  {
+      font-size: 30px;
+      font-weight: 700;
+      display: inline-block;
+      padding-top: 110px;
+      margin-bottom: 50px;
+      padding-left: 90px;
+  }
+
+  header h2 
+  {
+      display: none;
+  }
+
+  
+
+  header img
+  {
+     width: 200px;
+     height: 200px;
+  }
+
+  #header-bottom-flex-container
+  {
+     display: flex;
+     justify-content:space-around;
+     padding-right: 50px;
+  }
+
+  #rating-stars-container img
+  {
+     width: 18px;
+     height: 18px;
+  }
+
+  #rating-stars-container
+  {   
+      margin-left: 0px;
+      padding-top: 15px;
+  }
+
+  .total-review-weightage
+  {
+     font-size: 40px;
+     font-weight: bold;
+  }
+
+  .header-bottom-section
+  {
+      width: 25vw;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;   
+  }
+
+  .header-bottom-section:nth-child(2) 
+  {
+      margin-left: -50px;
+  }
+
+  .header-bottom-section:nth-child(3) 
+  {
+      display: block;
+      margin-top: -231px;
+      text-align: center;
+  }
+
+  .header-bottom-section:nth-child(3) img
+  {
+      height: 250px; 
+      width: 240px;
+
+  }
+
+  #review-button
+  {
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      box-shadow: 0 2px 0 #a36b00;
+      padding: 12px;
+      font-size: 15px;
+      height: 45px;
+      margin-top: 5px;
+      border-radius: 2px;
+      border-width: 0;
+      background-color: #FDA700;
+      border-color: #FDA700;
+      color: #fff;
+      width: 87%;
+      margin-top: -10px;
+      cursor: pointer;
+  }
+
+  #review-button:hover
+  {
+      background: #d88f00;
+      border-color: #d88f00;
+      cursor: pointer;
+      
+  }
+
+  .customer-review-text
+  {
+       font-size: 18px;
+  }
+
+  .customer-review-text:nth-child(2)
+  {
+      margin-left: 30px;
+  }
+
+  #total-out-of-weightage
+  {
+      font-size: 27px;
+      font-weight: bold;
+      padding-left: 2px;
+  }
+
+  #first-vertical-line
+  {
+     border-left: 1px solid white;
+     height: 50px;
+     margin-left: -60px;
+     margin-top: 7px;
+  }
+
+  #second-vertical-line
+  {
+     border-left: 1px solid white;
+     height: 50px;
+     margin-right: -90px;
+     margin-top: 7px;
+  }
+
+  @media screen and (max-width: 1150px)
+  {
+      header h1 
+      {
+         padding-left: 50px;
+      }
+
+      #header-bottom-flex-container
+      {
+        padding-right: 5px;
+      }
+
+      .total-review-weightage
+      {
+         font-size: 45px;
+      }
+
+      #total-out-of-weightage
+      {
+          font-size: 22px;
+      }
+
+      #review-button
+      {
+         width: 100%;
+      }
+
+      
+ }
+
+  @media screen and (max-width: 940px)
+  {
+
+      #header-bottom-flex-container
+      {
+        padding-right: 0;
+      }
+
+      .total-review-weightage
+      {
+         font-size: 37px;
+      }
+
+      #total-out-of-weightage
+      {
+          font-size: 18px;
+      }
+
+      .customer-review-text
+      {
+          font-size: 14px;
+      }
+
+      #rating-stars-container
+      {
+         padding-top: 5px;
+      }
+
+      #rating-stars-container img
+      {
+         height: 14px;
+         width: 14px;
+      }
+
+      #first-vertical-line
+      {
+         margin-left: -30px;
+      }
+
+      .customer-review-text:nth-child(2)
+      {
+          margin-left: 10px;
+      }
+
+      .header-bottom-section:nth-child(3) img
+      {
+          height: 200px; 
+          width: 190px;
+      }
+
+      .header-bottom-section:nth-child(3) 
+      {
+          margin-top: -185px;
+      }
+  }
+
+  @media screen and (max-width: 850px)
+  {
+      header h1
+      {
+         padding: 0;
+         padding-top: 40px;
+         display: block;
+         margin: 0;
+         text-align: center;
+         font-size: 24px;
+      }
+
+      #header-bottom-flex-container
+      {
+         display: none;
+      }
+
+      #review-ipad-container
+      {
+         display: block;
+         text-align: center;
+      }
+
+      #total-review-ipad-view
+      {
+          font-size: 35px;
+      }
+
+      #review-ipad-flex-container
+      {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin-top: 10px;
+      }
+
+      #review-ipad-flex-container div:nth-child(1)
+      {
+          margin-left: -70px;
+      }
+
+      #review-ipad-flex-container div:nth-child(2)
+      {
+          margin-right: 50px;
+          margin-left: 60px;
+      }
+
+      #header-ipad-bottom-section
+      {
+         text-align: center;
+      }
+
+      #header-ipad-bottom-section img
+      {
+          display: block;
+          margin-left: -60px;
+      }
+
+      #review-button
+      {
+         width: 85vw;
+      }
+
+      #customer-review-text-ipad
+      {
+         margin-top: 50px;
+         white-space: nowrap;
+      }
+
+
+
+      #hidden-review-form
+      {
+         left: 30vw;
+      }
+
+      #rating-stars-container
+      {
+          margin-top: 30px;
+          white-space: nowrap;
+      }
+  }
+
+  @media screen and (max-width: 760px)
+  {
+      #hidden-review-form
+      {
+         left: 27vw;
+      }
+  }
+
+  @media screen and (max-width: 680px)
+  {
+      #hidden-review-form
+      {
+         left: 23vw;
+      }
+
+      #review-button
+      {
+         width: 90vw;
+      }
+  }
+
+  @media screen and (max-width: 620px)
+  {
+      #hidden-review-form
+      {
+         left: 21vw;
+      }
+  }
+
+  @media screen and (max-width: 595px)
+  {
+      #hidden-review-form
+      {
+         left: 20vw;
+      }
+  }
+
+  @media screen and (max-width: 570px)
+  {
+      #hidden-review-form
+      {
+         left: 18vw;
+      }
+  }
+
+  
+
+  @media screen and (max-width: 560px)
+  {
+      header
+      {
+          padding-bottom: 30px;
+      }
+
+     header h1 
+     {
+        display: none;
+     }
+
+     header h2
+     {
+        display: block;
+        padding: 0;
+         padding-top: 40px;
+         display: block;
+         margin: 0;
+         text-align: center;
+         font-size: 23px;
+     }
+
+      #total-out-of-weightage
+      {
+          font-size: 27px;
+      }
+
+      .total-review-weightage
+      {
+         font-size: 27px;
+      }
+
+      #temporary-adustment
+      {
+          margin-top:-13px;
+      }
+
+
+      #review-ipad-container
+      {
+         display: none;
+      }
+
+      #review-mobile-container
+      {
+         display: block;
+         text-align: center;
+         padding-top: 17px;
+      }
+
+      .total-review-weightage
+      {
+         margin-top: 20px;
+      }
+
+      #review-button
+      {
+         width: 70vw;
+      }
+
+      #review-mobile-illustaion-img-box
+      {
+          margin-top: 10px;
+      }
+
+      #rating-stars-container
+      {
+          margin-top: 3px;
+      }
+
+      #review-mobile-illustaion-img-box img
+      {
+          margin-left: -15px;
+      }
+
+
+  }
+
+  @media screen and (max-width: 530px)
+  {
+      #hidden-review-form
+      {
+         left: 16vw;
+      }
+  }
+
+  @media screen and (max-width: 510px)
+  {
+      #hidden-review-form
+      {
+         left: 15vw;
+      }
+  }
+
+  @media screen and (max-width: 480px)
+  {
+      #hidden-review-form
+      {
+         left: 14vw;
+      }
+  }
+
+   @media screen and (max-width: 470px)
+  {
+      #hidden-review-form
+      {
+         left: 13vw;
+      }
+  }
+
+  @media screen and (max-width: 460px)
+  {
+      #hidden-review-form
+      {
+         left: 11%;
+      }
+  }
+
+  @media screen and (max-width: 437px)
+  {
+      #hidden-review-form
+      {
+         left: 9%;
+      }
+  }
+
+   @media screen and (max-width: 437px)
+  {
+      #hidden-review-form
+      {
+         left: 8%;
+      }
+  }
+
+   @media screen and (max-width: 410px)
+  {
+      #hidden-review-form
+      {
+         left: 7%;
+      }
+  }
+
+  @media screen and (max-width: 400px)
+  {
+      #hidden-review-form
+      {
+         left: 2.5vw;
+         width: 95vw;
+      }
+
+      header h1
+      {
+          font-size: 18px;
+      }
+  }
+
+
+

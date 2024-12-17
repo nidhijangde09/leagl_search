@@ -275,7 +275,7 @@ input, select, textarea, button
     font-family:inherit;
     font-size: 13px;
 }
-*/
+
 #form-header
 {
   text-align: center;
@@ -338,7 +338,7 @@ input, select, textarea, button
   font-size: 13px;
   line-height: 1.5384616;
   border-radius: 3px;
-  -webkit-user-select: none;
+  webkit-user-select: none;
   font-weight: 700;
   letter-spacing: 0.08em;
   box-shadow: 0 2px 0 #a36b00;
@@ -528,7 +528,7 @@ padding-right:0px;
 
   #free-services-main-container img
   {
-    /* width: 36px;*/
+    width: 36px;
   }
 
 
@@ -778,13 +778,13 @@ startupwala-featured-in-container
 
   startupwala-featured-in-elements img
   {
-    /*height: 16px;
-    margin-top: 15px;*/
+    height: 16px;
+    margin-top: 15px;
   }
 
   #economics-times-icon
   {
-  /*  margin-left: -20px;*/
+   margin-left: -20px;
   }
 
   @media screen and (max-width: 1000px)
@@ -1793,7 +1793,6 @@ startupwala-featured-in-container
   display: none;
   background-color: white;
   overflow: hidden;
-<<<<<<< HEAD
   transition: max-height 0.2s ease-out;
   width: 70%;
   margin-left: 222px;
@@ -1805,12 +1804,14 @@ startupwala-featured-in-container
 #startup-trust-us-three-people-img{
   margin-left: 0%;
   margin-right:0%;
-  padding left: 10px;
+  padding-left: 10px;
   width: 100%;
-
-=======
-  width: 80%;
   margin-left: auto;
   margin-right: auto;
 padding-bottom: 30px;
+}
+
+.faq-container{
+  height:100%;
+
 }
