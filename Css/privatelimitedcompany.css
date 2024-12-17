@@ -679,7 +679,10 @@ h1 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 50px;
+<<<<<<< HEAD
+=======
     max-width: 1200px;
+>>>>>>> c49c5c32d410bbff99379cde260d2dedc44a3686
     border: #f4f4f4e2;
     margin-left: 250px;
     margin-top: 40px;
